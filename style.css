@@ -1,0 +1,81 @@
+body {
+    background-color: ghostwhite;
+}
+#wrapper {
+    width: 870px;
+    margin: 30px auto;
+    background-color: white;
+}
+nav {
+    height: 50px;
+    background-color: orange;
+}
+    nav ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+    }
+    nav li {
+        line-height: 50px;
+        padding: 0px 10px;
+    }
+    nav a {
+        color: white;
+        font-size: 18px;
+        text-decoration: none;
+        padding: 10px;
+    }
+    nav a:hover, nav a.active {
+        text-decoration: underline;
+    }
+main {
+    padding: 0px 20px 10px 20px;
+    margin-right: 250px;
+}
+    main h3 {
+        margin: 20px 0px 10px 0px;
+    }
+    main p {
+        text-align: justify;
+    }
+    #price {
+        width: 100%;
+        text-align: center;
+    }
+    #price th {
+        background-color: ghostwhite;
+        font-weight: bold;
+        border: 1px solid black;
+        margin: 2px;
+    }
+    #price td {
+        border: 1px solid black;
+        margin: 2px;
+    }
+
+
+aside {
+    width: 250px;
+    float: right;
+}
+    aside h4 {
+        margin: 20px 0px 0px 0px;
+        padding: 0px 15px 0px 5px;
+    }
+    aside p {
+        font-size: 13px;
+        text-align: justify;
+        padding: 0px 15px 0px 5px;
+
+    }
+footer {
+    height: 70px;
+    background-color: orange;
+}
+    footer p {
+        color: white;
+        font-size: 12px;
+        text-align: center;
+        padding-top: 30px;
+    }
